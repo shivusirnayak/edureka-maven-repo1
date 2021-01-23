@@ -1,6 +1,6 @@
 class Login{
 	public static void main(String args[]){
-		System.out.println("Login functionality has to be developed");
+	
 		String username ="admin";
 		String password ="admin";
 		verifyLogin(username,password)
