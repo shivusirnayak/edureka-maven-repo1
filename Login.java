@@ -1,6 +1,6 @@
 class Login{
 	public static void main(String args[]){
-		//added comment to get merge conflict	
+		
 		String username ="admin";
 		String password ="admin";
 		verifyLogin(username,password)
