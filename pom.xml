@@ -27,6 +27,14 @@
     </dependency>
   </dependencies>
 
+  <distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-39-231-snapshots</name>
+        <url>http://3.110.120.162:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+</distributionManagement> 
+ 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
